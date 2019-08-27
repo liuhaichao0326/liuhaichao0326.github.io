@@ -18,11 +18,8 @@
 var myCanvas=document.getElementById('myCanvas');
 	myCanvas.width=400;
 	myCanvas.height=400;
-
 	var cvs=myCanvas.getContext("2d"); 
 function timer(){
-
-
 	var x=200,
 		y=200,
 		r=200,
@@ -30,8 +27,6 @@ function timer(){
 		hours = date.getHours(),
 		minutes=date.getMinutes(),
 		seconds=date.getSeconds()
-
-
 	var H=(-90 + hours*30 + minutes/2)*Math.PI/180;
 	var M=(-90 + minutes*6)*Math.PI/180;
 	var S=(-90 + seconds*6)*Math.PI/180;
@@ -60,8 +55,6 @@ cvs.arc(x,y,r*(19/20),0,2*Math.PI);
 // cvs.strokeStyle="#fff";
 cvs.fillStyle="#fff"
 cvs.fill()
-
-
 cvs.beginPath();
 	for(var i=0; i<12; i++){
 		cvs.moveTo(x,y);
@@ -77,12 +70,7 @@ cvs.arc(x,y,r*(18/20),0,2*Math.PI);
 cvs.fillStyle="#fff"
 cvs.strokeStyle="#fff"
 cvs.fill()
-
-
-
-
 cvs.stroke();
-
 cvs.beginPath();
 	cvs.moveTo(x,y);
 	cvs.arc(x,y,r*(8/20),H,H);	
@@ -90,35 +78,19 @@ cvs.lineWidth=7;
 cvs.strokeStyle="#000";
 cvs.stroke();
 
-
-
-
-
-
 cvs.beginPath();
 	cvs.moveTo(x,y);
 	cvs.arc(x,y,r*(13/20),M,M);	
 cvs.lineWidth=4;
 cvs.strokeStyle="#000";
 cvs.stroke();
-	// cvs.moveTo(50,50)
-	// cvs.arc(50,50,50,0,6*Math.PI/180);
-	// for(var i=0; i<60; i++){
-	// 	cvs.moveTo(50,50)
-	// 	cvs.arc(50,50,50,i*6*Math.PI/180,(i+1)*6*Math.PI/180);
-	// }
 
-
-	// 0
 	cvs.beginPath();
 	cvs.moveTo(x,y);
 	cvs.arc(x,y,r*(17/20),S,S);	
 cvs.lineWidth=1;
 cvs.strokeStyle="#000";
 cvs.stroke();
-
-
-
 
 	cvs.stroke();
 }
