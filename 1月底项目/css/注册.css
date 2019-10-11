@@ -1,0 +1,155 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	width: 100%;
+	height: 753px;
+	background-image: url(../img/zhuce/11.jpg);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+.zhuti{
+	width: 100%;
+	overflow: hidden;
+}
+.zhuti1{
+	width: 1270px;
+	height: 120px;
+	margin:0 auto;
+}
+.logo{
+	width: 200px;
+	height: 90px;
+	margin-top: -40px;
+	float: left;
+}
+.logo img{
+	width: 200px;
+	height: 46px;
+	border: 0px solid red;
+}
+.zhuzi{
+	width: 400px;
+	height: 60px;
+	line-height: 60px;
+	margin:0 auto;
+	margin-top: 90px;	
+}
+.zhuzi b{
+	font-size: 24px;
+	color: white;
+}
+.zhojian{
+	width: 470px;
+	height: 460px;
+	margin:0 auto;
+}
+.zho1{
+	width: 450px;
+	height: 60px;
+	line-height: 60px;
+	margin:0 auto;
+	border-bottom: 1px solid #5c5c5c;
+}
+.zho1 p{
+	font-size: 17px;
+	color: white;
+}
+.zho2{
+	width: 400px;
+	height: 390px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+.zho2 p input{
+	width: 400px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #232323;
+	border: 1px solid #666666;
+	padding-left: 5px;
+	margin-top: 10px;
+}
+.yanzheng{
+	width: 250px;
+	height: 122px;
+	float: left;
+	/*margin-top: -20px;*/
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.yanzheng p input{
+	width: 240px;
+	height: 40px;
+	/*margin-top: 10px;*/
+}
+.tuxing{
+	width: 140px;
+	height: 110px;
+	float: right;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+	margin-top: 10px;
+}
+.tuxing img{
+	width: 140px;
+	height: 40px;
+	border-radius: 5px;
+}
+.tuxing p a{
+	width: 140px;
+	height: 40px;
+	border-radius: 5px;
+	
+	
+	
+}
+.fasong{
+	width: 140px;
+	height: 40px;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: 10px;
+}
+.fasong a{
+	display: block;
+	color: #ccc;
+	font-size: 16px;
+	line-height: 40px;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+.queren{
+	width: 400px;
+	height: 40px;
+	margin:0 auto;
+	text-align: center;
+	margin-top: -60px;
+}
+.queren a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	background-color: #666666;
+	border-radius: 5px;
+	margin:0 auto;
+	text-decoration: none;
+	color: #999999;
+	font-size: 17px;
+	line-height: 40px;
+
+}
+.dibu{
+	width: 650px;
+	height: 20px;
+	margin:0 auto;
+	text-align: center;
+	margin-top: 30px;
+}
+.dibu p{
+	color: white;
+	font-size: 12px;
+}

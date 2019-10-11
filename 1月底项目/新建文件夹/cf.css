@@ -1,0 +1,176 @@
+*{
+	margin:0;
+	padding:0;
+}
+.zhuti{
+	width: 100%;
+}
+.to{
+	width: 100%;
+	height: 77px;
+	background-color: #0d1015;
+}
+.todu{
+	width: 1300px;
+	height: 77px;
+	margin:0 auto;
+	position: relative;
+}
+.todu img{
+	margin-left:115px; 
+}
+.right{
+	width: 835px;
+	height: 30px;
+	float: right;
+	margin-top: 20px;
+}
+.right a{
+	margin-right:55px;
+	font-size: 15px;
+	text-decoration: none;
+	color: #fff;
+}
+.zi3 a {
+	font-size: 10px;
+	color: #41454d;
+	padding-left: 8px;
+
+}
+.zi3 span  a{
+	padding-left: 17px;
+}
+.zi3 span u a{
+	padding-left: 0px;
+}
+.zi4{
+	position: absolute;
+	right:5px;
+	top:45px;
+}
+.p1{
+	width: 100%;
+	height: 730px;
+	background-color: #93343f;
+}
+
+.bei{
+	background-image: url(3.png);
+	width: 1550px;
+	height: 730px;
+	margin:0 auto;
+	position: relative;
+	overflow: hidden;
+}
+/*.bei img{
+	width: 1550px;
+	height: 730px;
+}*/
+.zi1{
+	width: 750px;
+	height: 110px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	right: 40px;
+	top: 5px;
+	color:  #fff;
+}
+.z1{
+	width: 100px;
+	height: 90px;
+	float: left;
+	text-align: center;
+	margin-left: 30px;
+}
+.z1 p a{
+	color:  #fff;
+	
+	text-decoration: none;
+	font-size: 15px;
+}
+.z1 p a:hover{
+	color: red;
+}
+
+.z2{
+	width: 100px;
+	height: 90px;
+	float: left;
+	text-align: center;
+	margin-left: 30px;
+}
+.z2 p a{
+	color:  #fff;
+	
+	text-decoration: none;
+	font-size: 15px;
+}
+.z2 p a:hover{
+	color: blue;
+}
+.z3{
+	width: 100px;
+	height: 90px;
+	float: left;
+	text-align: center;
+	margin-left: 15px;
+}
+.z3 p a{
+	color:  #fff;
+	
+	text-decoration: none;
+	font-size: 15px;
+}
+.z3 p a:hover{
+	color: pink;
+}
+.z4{
+	width: 100px;
+	height: 90px;
+	float: left;
+	text-align: center;
+	margin-left: 15px;
+}
+.z4 p a{
+	color:  #fff;
+	
+	text-decoration: none;
+	font-size: 15px;
+}
+.z4 p a:hover{
+	color: #07f990;
+}
+.z5{
+	width: 110px;
+	height: 90px;
+	float: left;
+	text-align: center;
+	margin-left:25px;
+}
+.z5 p a{
+	color:  #fff;
+	
+	text-decoration: none;
+	font-size: 15px;
+}
+.z5 p a:hover{
+	color: yellow;
+}
+
+.z6{
+	width: 100px;
+	height: 90px;
+	text-align: center;
+	float: left;
+
+	margin-left: 10px;
+}
+.z6 p a{
+	color:  #fff;
+	                                                                 text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+}
+.z6 p a:hover{
+	color: #07f9f6;
+}
