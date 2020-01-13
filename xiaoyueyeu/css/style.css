@@ -6970,7 +6970,7 @@ div#foreground{
   z-index: 999;
 height: 200px;
 width: 200px;
-margin: 280px auto;
+margin:320px auto;
 position: relative;
 perspective:2000px;
 /*实现3d效果*/
